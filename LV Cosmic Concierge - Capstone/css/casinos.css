@@ -1,0 +1,56 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+/* ===== Main Header ===== */
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5px;
+}
+
+#winning{
+	letter-spacing: 10px;
+}
+
+/* ===== Call to Action ===== */
+
+.bg-secondary{
+	background: url("../images/casinos/background.jpg") bottom no-repeat;
+	background-color: #fff;
+	background-size: 1200px;
+
+}
+
+#call2action{
+	font-size: xx-large;
+}
+
+
+/* ===== Cards ===== */
+
+h2{
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* ===== Footer ===== */
+
+footer i{
+	margin: 0.5%;
+	color: #fff;
+}
+
+footer i:hover{
+	opacity: 60%;
+}

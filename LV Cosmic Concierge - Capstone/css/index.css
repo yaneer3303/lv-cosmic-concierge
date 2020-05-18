@@ -29,12 +29,25 @@ a.btn-lg{
 
 .btn-primary{
 	display: inline;
+}
 
+.card a:hover{
+	opacity: 60%;
+}
+
+h4 {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* ===== Footer ===== */
 
-i{
+footer i{
 	margin: 0.5%;
 	color: #fff;
+}
+
+footer i:hover{
+	opacity: 60%;
 }

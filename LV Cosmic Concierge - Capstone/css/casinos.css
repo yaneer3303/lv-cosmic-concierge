@@ -46,11 +46,28 @@ h2{
 
 /* ===== Footer ===== */
 
-footer i{
-	margin: 0.5%;
-	color: #fff;
+.d-flex {
+  display: flex !important;
 }
-
-footer i:hover{
-	opacity: 60%;
+.justify-content-center {
+  justify-content: center !important;
+}
+footer .social a {
+  text-align: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 4rem;
+  color: rgba(255, 255, 255, 1);
+  margin: 0.5%
+}
+footer .social a:hover {
+  color: rgba(255, 255, 255, 0.1);
+}
+footer .social a:active {
+  color: #fff;
+}
+footer i{
+  margin: 0.5%;
 }

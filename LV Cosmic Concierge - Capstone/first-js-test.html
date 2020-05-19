@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Java Script | Test</title>
+	<script type="text/javascript">
+		function displayDate() {
+			document.getElementById('date$time').innerHTML = Date();
+		}
+		function insert$beaches() {
+			var x = document.getElementById('beach-n').value;
+			document.getElementById('buc').innerHTML = x;
+		}
+		function insert$hiking_n1() {
+			var x = document.getElementById('hiking-n1').value;
+			document.getElementById('huc1').innerHTML = x;
+		}
+		function insert$hiking_n2() {
+			var x = document.getElementById('hiking-n2').value;
+			document.getElementById('huc2').innerHTML = x;
+		}
+		function insert$pool() {
+			var x = document.getElementById('pool-n').value;
+			document.getElementById('puc').innerHTML = x;
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<h1>Good Morning</h1>
+	</header>
+	<main>
+		<h2>Things I like to do during the summer</h2>
+		<a href="#fill">Click Here to Fill Out User Choices</a>
+		<h3 id="beaches">Beaches&colon;</h3>
+			<ol>
+				<li>San Diego</li>
+				<li>Los Angeles</li>
+				<li>New York</li>
+				<li>Miami</li>
+				<li>Galveston</li>
+				<li id="buc"><b>User Choice</b></li>
+			</ol>
+		<h3 id="hiking">Hiking&colon;</h3>
+			<ul>
+				<li>Red&dash;Rock Canyon</li>
+				<li>Bryce Canyon</li>
+				<li>Seven Magic Mountains</li>
+				<li id="huc1"><b>User Choice</b></li>
+				<li id="huc2"><b>User Choice</b></li>
+			</ul>
+		<h3 id="pools">Pools</h3>
+			<p>The best pools is Las Vegas are on the strip&period; If it was up to me, I would say the best place is <b id="puc">User Choice</b></p>
+			<details>
+				<summary>Best Secret Pools</summary>
+				<p>
+					<ol>
+						<li>Wynn&sol;Encore</li>
+						<li>Cosmopolitan</li>
+						<li>Hyde</li>
+						<li id="puc"><b>User Choice</b></li>
+					</ol>
+				</p>
+			</details>
+
+		<section id="fill">
+			<ol style="line-height: 200%">
+				<li>
+					<input type="text" id="beach-n" class="beaches" value="Fill in your favorite Beach" style="width: 250px;">
+					<button type="button" onclick="insert$beaches()" style="width: 100px">Beaches</button>
+				</li>
+				<li>
+					<input type="text" id="hiking-n1" value="Fill in your favorite hiking trail" style="width: 250px;">
+					<button type="text" onclick="insert$hiking_n1()" style="width: 100px">Fav HKT</button>
+				</li>
+				<li>
+					<input type="text" id="hiking-n2" value="Fill in your second favorite hiking trail" style="width: 250px;">
+					<button type="text" onclick="insert$hiking_n2()" style="width: 100px">2nd Fav HKT</button>
+				</li>
+				<li>
+					<input type="text" id="pool-n" value="Fill in the best pool you know if in Vegas" style="width: 250px;">
+					<button type="text" onclick="insert$pool()" style="width: 100px">Fav Pool</button>
+				</li>
+			</ol>
+		</section>
+	</main>
+
+	<footer>
+		<small>This Page was created by Yaneer Escappa<br>
+			<span id="date$time">Today&apos;s Date is&colon;
+			<button type="button" onclick="displayDate()">
+				Click ME&excl;
+			</button>
+			</span>	
+		</small>
+	</footer>
+
+</body>
+</html>

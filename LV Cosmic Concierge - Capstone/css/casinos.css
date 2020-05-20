@@ -138,10 +138,10 @@ footer .social a {
   color: rgba(255, 255, 255, 1);
   margin: 0.5%
 }
-footer .social a:hover {
+footer .social a:hover, footer .social-media a:hover{
   color: rgba(255, 255, 255, 0.1);
 }
-footer .social a:active {
+footer .social a:active, footer.social-media a:active, footer .social-media a{
   color: #fff;
 }
 footer i{

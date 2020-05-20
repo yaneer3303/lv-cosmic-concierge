@@ -148,6 +148,13 @@ h2.text-lg{
 	border-bottom-left-radius: 5px;
 }
 
+/* ===== Contact Cards ===== */
+
+hr.my-2{
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
 
 /* ===== Footer ===== */
 
@@ -167,12 +174,12 @@ footer .social a {
   color: rgba(255, 255, 255, 1);
   margin: 0.5%
 }
-footer .social a:hover {
+footer .social a:hover, footer .social-media a:hover{
   color: rgba(255, 255, 255, 0.1);
 }
-footer .social a:active {
+footer .social a:active, footer.social-media a:active, footer .social-media a{
   color: #fff;
 }
 footer i{
-	margin: 0.5%;
+  margin: 0.5%;
 }
